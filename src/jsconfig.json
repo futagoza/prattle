@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": false,
+        "baseUrl": "./",
+        "experimentalDecorators": true,
+        "noFallthroughCasesInSwitch": true,
+        "target": "esnext"
+    }
+}
