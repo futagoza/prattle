@@ -17,6 +17,6 @@ module.exports = {
     ],
     dest: `dist/pow.${ target }.js`,
     format: "umd",
-	sourceMap: true
+    sourceMap: true
 
 };
