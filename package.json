@@ -34,8 +34,8 @@
         "bundle:browser": "ROLLUP_TARGET=browser rollup -c",
         "bundle:extensions": "ROLLUP_TARGET=extensions rollup -c",
         "lint": "eslint --cache bin src rollup.config.js",
-        "test": "cd src && mocha '*.{spec,test}.js' --opts test/mocha.opts",
-        "preversion": "npm install && npm run compile && npm test",
+        "test": "jest",
+        "preversion": "npm install && jest --silent",
         "postversion": "git push --follow-tags && npm publish"
     },
     "dependencies": {
@@ -46,7 +46,7 @@
         "npm-run-all": "4.1.x",
         "eslint": "4.6.x",
         "eslint-config-futagozaryuu": "3.5.x",
-        "mocha": "3.5.x",
+        "jest": "21.0.x",
         "babel-register": "7.0.0-alpha.20",
         "babel-cli": "7.0.0-alpha.20",
         "babel-preset-futagozaryuu": "2.8.x",
@@ -61,5 +61,13 @@
     "eslintConfig": {
         "extends": "futagozaryuu/node-v4",
         "root": true
+    },
+    "jest": {
+        "roots": [
+            "<rootDir>/src"
+        ],
+        "testMatch": [
+            "**/*.(spec|test).js"
+        ]
     }
 }
