@@ -47,6 +47,7 @@
         "eslint": "4.6.x",
         "eslint-config-futagozaryuu": "3.5.x",
         "jest": "21.0.x",
+        "@types/jest": "20.0.x",
         "babel-register": "7.0.0-alpha.20",
         "babel-cli": "7.0.0-alpha.20",
         "babel-preset-futagozaryuu": "2.8.x",

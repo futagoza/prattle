@@ -5,5 +5,10 @@
         "experimentalDecorators": true,
         "noFallthroughCasesInSwitch": true,
         "target": "esnext"
+    },
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
     }
 }
