@@ -1,6 +1,4 @@
 /dist
-/lib
 /node_modules
-/.eslintcache
 /npm-debug.log
 /package-lock.json
