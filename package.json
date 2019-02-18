@@ -26,7 +26,8 @@
     "scripts": {
         "lint": "eslint .",
         "test": "nyc mocha",
-        "postversion": "git push --follow-tags && npm publish"
+        "postversion": "git push --follow-tags && npm publish",
+        "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
     },
     "dependencies": {
         "chai": "4.2.0",
@@ -34,9 +35,11 @@
         "lodash": "4.17.11"
     },
     "devDependencies": {
+        "codecov": "3.2.0",
         "eslint": "5.14.0",
         "eslint-config-futagozaryuu": "5.6.1",
-        "mocha": "5.2.0"
+        "mocha": "5.2.0",
+        "nyc": "13.3.0"
     },
     "engines": {
         "node": ">= 4"
