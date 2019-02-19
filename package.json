@@ -24,6 +24,7 @@
     },
     "browser": "dist/pow.js",
     "scripts": {
+        "clean": "rimraf .nyc_output coverage dist docs/.vuepress/dist",
         "dist:build": "webpack",
         "dist:watch": "webpack --watch",
         "docs:build": "vuepress build docs",
@@ -50,6 +51,7 @@
         "glob": "7.1.3",
         "mocha": "5.2.0",
         "nyc": "13.3.0",
+        "rimraf": "2.6.3",
         "webpack": "4.29.5",
         "webpack-cli": "3.2.3",
         "vuepress": "1.0.0-alpha.39"
