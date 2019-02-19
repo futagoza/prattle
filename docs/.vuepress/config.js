@@ -14,33 +14,20 @@ module.exports = {
 
         nav: [
             {
-                text: "Documentation",
-                items: [
-                    {
-                        text: "Guides",
-                        link: "/guides/getting-started",
-                    },
-                    {
-                        text: "API",
-                        link: "/guides/javascript-api",
-                    },
-                    {
-                        text: "Compatibility",
-                        link: "/guides/compatibility",
-                    },
-                ],
+                text: "Guides",
+                link: "/guides/getting-started",
+            },
+            {
+                text: "API",
+                link: "/api/",
+            },
+            {
+                text: "Compatibility",
+                link: "/compatibility",
             },
             {
                 text: "Development",
                 items: [
-                    {
-                        text: "Contribute",
-                        link: "/development",
-                    },
-                    {
-                        text: "Changelog",
-                        link: "/changelog",
-                    },
                     {
                         text: "Source code",
                         link: "https://github.com/pegjs/pegjs",
