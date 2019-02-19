@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "name": "pow-website",
+    "alias": [
+        "pow.now.sh"
+    ],
+    "builds": [
+        {
+            "src": "package.json",
+            "use": "@now/static-build",
+            "config": {
+                "distDir": "docs/.vuepress/dist"
+            }
+        }
+    ]
+}
