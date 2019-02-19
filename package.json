@@ -24,15 +24,18 @@
     },
     "browser": "dist/pow.js",
     "scripts": {
+        "lint": "eslint .",
+        "test": "nyc mocha",
         "clean": "rimraf .nyc_output coverage dist docs/.vuepress/dist",
         "dist:build": "webpack",
         "dist:watch": "webpack --watch",
         "docs:build": "vuepress build docs",
         "docs:watch": "vuepress dev docs",
-        "lint": "eslint .",
-        "test": "nyc mocha",
-        "postversion": "git push --follow-tags && npm publish",
-        "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
+        "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+        "now-build": "npm run docs:build",
+        "prepack": "npm run dist:build",
+        "preversion": "npm run clean",
+        "postversion": "git push --follow-tags && npm publish"
     },
     "dependencies": {
         "chai": "4.2.0",
