@@ -58,7 +58,7 @@ module.exports = {
         new webpack.BannerPlugin( {
             banner: HEADER,
             raw: true,
-        } )
+        } ),
     ],
 
 };
