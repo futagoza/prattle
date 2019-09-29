@@ -26,7 +26,7 @@ module.exports = {
     mode: process.argv.includes( "--watch" ) ? "development" : "production",
     entry: glob( "./lib/browser/*.js" ).reduce( ( entry, file ) => {
 
-        entry[ path.basename( file, ".js" ) ] = require.resolve( "./lib/" + file );
+        entry[ path.basename( file, ".js" ) ] = require.resolve( file );
 
         return entry;
 
@@ -39,6 +39,9 @@ module.exports = {
         umdNamedDefine: true,
         sourcePrefix: "  ",
         globalObject: "typeof self !== 'undefined' ? self : window",
+    },
+    optimization: {
+        minimize: true,
     },
     performance: {
         hints: false,
