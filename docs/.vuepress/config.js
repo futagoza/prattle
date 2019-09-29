@@ -10,45 +10,30 @@ module.exports = {
         [ "link", { rel: "shortcut icon", href: "/favicon.ico", type: "image/x-icon" } ],
 
     ],
+
     themeConfig: {
 
-        nav: [
-            {
-                text: "Guides",
-                link: "/guides/getting-started",
-            },
-            {
-                text: "API",
-                link: "/api/",
-            },
-            {
-                text: "Compatibility",
-                link: "/compatibility",
-            },
-            {
-                text: "Development",
-                items: [
-                    {
-                        text: "Source code",
-                        link: "https://github.com/pegjs/pegjs",
-                    },
-                    {
-                        text: "Issue tracker",
-                        link: "https://github.com/pegjs/pegjs/issues",
-                    },
-                ],
-            },
-        ],
-        sidebar: false,
-        // sidebarDepth: 0,
-        // displayAllHeaders: false,
-        // activeHeaderLinks: true,
+        nav: require( "./config/nav.js" ),
+        sidebar: require( "./config/sidebar.js" ),
+        sidebarDepth: 0,
+        displayAllHeaders: false,
+        activeHeaderLinks: true,
         search: true,
         searchMaxSuggestions: 5,
         lastUpdated: false,
         editLinks: false,
         evergreen: false,
+        smoothScroll: true,
 
     },
+
+    plugins: [
+        [ "@vuepress/back-to-top", true ],
+    ],
+
+    extraWatchFiles: [
+        require.resolve( "./config/nav.js" ),
+        require.resolve( "./config/sidebar.js" ),
+    ],
 
 };

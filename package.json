@@ -49,6 +49,7 @@
         "@futagoza/eslint-config-dev": "9.3.0",
         "@sinonjs/referee-sinon": "5.0.0",
         "@types/node": "8",
+        "@vuepress/plugin-back-to-top": "1.1.0",
         "babel-loader": "8.0.6",
         "codecov": "3.6.1",
         "dedent": "0.7.0",
