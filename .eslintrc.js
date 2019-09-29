@@ -4,7 +4,7 @@ module.exports = {
 
     "extends": [
 
-        "@futagoza/node/4",
+        "@futagoza/node/8",
         "@futagoza/vue",
 
     ],
