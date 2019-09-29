@@ -1,5 +1,8 @@
 {
-    "name": "pow.js",
+    "publishConfig": {
+        "access": "public"
+    },
+    "name": "@futagoza/pow",
     "version": "0.1.0-alpha.0",
     "description": "Run spec, benchmark and impact tests, all from one tool",
     "keywords": [
