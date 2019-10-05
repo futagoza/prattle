@@ -34,7 +34,6 @@
         "dist:watch": "webpack --watch",
         "test": "nyc mocha",
         "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
-        "now-build": "npm run docs:build",
         "prepack": "npm run dist:build",
         "preversion": "npm run clean",
         "postversion": "git push --follow-tags && npm publish"

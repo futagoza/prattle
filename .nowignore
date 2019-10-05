@@ -1,9 +1,0 @@
-.github
-.idea
-.nyc_output
-coverage
-dist
-node_modules
-.eslint*
-.nycrc
-azure-pipelines.yml
