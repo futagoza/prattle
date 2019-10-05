@@ -1,5 +1,4 @@
 !.eslintrc.js
 .idea
 dist
-docs/.vuepress/dist
 node_modules

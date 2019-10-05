@@ -1,8 +1,6 @@
----
-title: "Compatibility"
----
+## Compatibility
 
-This file is the canonical resource for compatibility goals for POW.
+This is the canonical resource for compatibility goals for POW.
 
 ## ES2017
 
@@ -22,5 +20,3 @@ POW aims at supporting the following runtimes:
 * Node 8+ (LTS versions only)
 
 [ES8]: http://www.ecma-international.org/ecma-262/8.0/
-
-<PageFooter />
