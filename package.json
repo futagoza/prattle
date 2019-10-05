@@ -50,7 +50,6 @@
         "@babel/core": "7.6.2",
         "@babel/preset-env": "7.6.2",
         "@futagoza/eslint-config": "10.0.0",
-        "@futagoza/eslint-config-dev": "10.0.0",
         "@types/node": "8",
         "babel-loader": "8.0.6",
         "codecov": "3.6.1",
