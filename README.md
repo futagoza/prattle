@@ -1,6 +1,6 @@
 [![release](https://img.shields.io/npm/v/prattle.svg)](https://www.npmjs.com/package/prattle)
 [![dependencies](https://img.shields.io/david/futagoza/prattle.svg)](https://david-dm.org/futagoza/prattle)
-[![Actions](https://github.com/futagoza/prattle/workflows/actions/badge.svg)](https://github.com/futagoza/prattle/actions?workflow=actions)
+[![ci](https://github.com/futagoza/prattle/workflows/ci/badge.svg)](https://github.com/futagoza/prattle/ci?workflow=ci)
 [![Codecov](https://codecov.io/gh/futagoza/prattle/branch/master/graph/badge.svg)](https://codecov.io/gh/futagoza/prattle)
 [![CodeFactor](https://www.codefactor.io/repository/github/futagoza/prattle/badge)](https://www.codefactor.io/repository/github/futagoza/prattle)
 [![license](https://img.shields.io/badge/license-mit-blue.svg)](https://opensource.org/licenses/MIT)
