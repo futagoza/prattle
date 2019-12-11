@@ -43,6 +43,7 @@
         "bluebird": "3.7.0",
         "cosmiconfig": "5.2.1",
         "chai": "4.2.0",
+        "emittery": "0.4.1",
         "glob": "7.1.4",
         "mkdirp": "0.5.1",
         "lodash": "4.17.15"
