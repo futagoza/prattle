@@ -2,7 +2,7 @@
     "exclude": [ "lib/browser" ],
     "include": [ "lib/**" ],
     "reporter": [
-        "lcov",
-        "text-summary"
+        "json",
+        "text"
     ]
 }
