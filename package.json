@@ -9,6 +9,7 @@
         "benchmark",
         "impact"
     ],
+    "homepage": "https://prattle.now.sh/",
     "repository": "futagoza/prattle",
     "license": "MIT",
     "author": "Futago-za Ryuu <futagoza.ryuu@gmail.com>",
@@ -18,10 +19,7 @@
         "lib"
     ],
     "main": "index.js",
-    "bin": {
-        "prattle": "bin/prattle",
-        "impact": "bin/impact"
-    },
+    "bin": "bin/prattle",
     "browser": "dist/prattle.js",
     "scripts": {
         "lint": "eslint .",
