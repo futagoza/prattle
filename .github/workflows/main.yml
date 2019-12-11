@@ -17,14 +17,11 @@ jobs:
       with:
         node-version: 10.x
 
-    - name: Install Yarn
-      run: npm install --global yarn
-
     - name: Install dependencies
-      run: yarn --ignore-engines
+      run: npx yarn --ignore-engines
 
     - name: Lint JavaScript files using ESLint
-      run: yarn lint
+      run: npm run lint
 
   ci:
     name: Test
@@ -44,16 +41,13 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
 
-    - name: Install Yarn
-      run: npm install --global yarn
-
     - name: Install dependencies
-      run: yarn --ignore-engines
+      run: npx yarn --ignore-engines
 
     - name: Run tests
-      run: yarn test
+      run: npm run test
 
     - name: Publish code coverage results
-      run: yarn coverage
+      run: npm run coverage
       env:
         CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
