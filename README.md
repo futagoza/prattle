@@ -1,18 +1,18 @@
-[![release](https://img.shields.io/npm/v/@futagoza/pow.svg)](https://www.npmjs.com/package/@futagoza/pow)
-[![dependencies](https://img.shields.io/david/futagoza/pow.svg)](https://david-dm.org/futagoza/pow)
-[![Actions](https://github.com/futagoza/pow/workflows/actions/badge.svg)](https://github.com/futagoza/pow/actions?workflow=actions)
-[![Codecov](https://codecov.io/gh/futagoza/pow/branch/master/graph/badge.svg)](https://codecov.io/gh/futagoza/pow)
-[![CodeFactor](https://www.codefactor.io/repository/github/futagoza/pow/badge)](https://www.codefactor.io/repository/github/futagoza/pow)
+[![release](https://img.shields.io/npm/v/prattle.svg)](https://www.npmjs.com/package/prattle)
+[![dependencies](https://img.shields.io/david/futagoza/prattle.svg)](https://david-dm.org/futagoza/prattle)
+[![Actions](https://github.com/futagoza/prattle/workflows/actions/badge.svg)](https://github.com/futagoza/prattle/actions?workflow=actions)
+[![Codecov](https://codecov.io/gh/futagoza/prattle/branch/master/graph/badge.svg)](https://codecov.io/gh/futagoza/prattle)
+[![CodeFactor](https://www.codefactor.io/repository/github/futagoza/prattle/badge)](https://www.codefactor.io/repository/github/futagoza/prattle)
 [![license](https://img.shields.io/badge/license-mit-blue.svg)](https://opensource.org/licenses/MIT)
 
-POW is a simple test runner for JavaScript (works in [the browser and on Node 8+](./docs/guides/compatibility.md)). It can be used to run spec, benchmark and impact tests, while also letting you customize the runner (reporters, ui, etc).
+Prattle is a simple test runner for JavaScript (works in [the browser and on Node 8+](./docs/guides/compatibility.md)). It can be used to run spec, benchmark and impact tests, while also letting you customize the runner (reporters, ui, etc).
 
-> POW is still very much work in progress. There are no compatibility guarantees until it goes gold
+> Prattle is still very much work in progress. There are no compatibility guarantees until it goes gold
 
 ## install
 
 ```sh
-npm install --save-dev @futagoza/pow
+npm install --save-dev prattle
 ```
 
 ## features
@@ -25,9 +25,9 @@ npm install --save-dev @futagoza/pow
 
 ## documentation
 
-- [Getting Started](https://pow.now.sh/guides/getting-started)
-- [Compatibility](https://pow.now.sh/guides/compatibility)
-- [API](https://pow.now.sh/api/)
+- [Getting Started](https://prattle.now.sh/guides/getting-started)
+- [Compatibility](https://prattle.now.sh/guides/compatibility)
+- [API](https://prattle.now.sh/api/)
 
 ## license
 

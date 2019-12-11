@@ -1,9 +1,6 @@
 {
-    "publishConfig": {
-        "access": "public"
-    },
-    "name": "@futagoza/pow",
-    "version": "0.1.0-alpha.0",
+    "name": "prattle",
+    "version": "0.0.0",
     "description": "Run spec, benchmark and impact tests, all from one tool",
     "keywords": [
         "framework",
@@ -12,7 +9,7 @@
         "benchmark",
         "impact"
     ],
-    "repository": "futagoza/pow",
+    "repository": "futagoza/prattle",
     "license": "MIT",
     "author": "Futago-za Ryuu <futagoza.ryuu@gmail.com>",
     "files": [
@@ -22,10 +19,10 @@
     ],
     "main": "index.js",
     "bin": {
-        "pow": "bin/pow",
+        "prattle": "bin/prattle",
         "impact": "bin/impact"
     },
-    "browser": "dist/pow.js",
+    "browser": "dist/prattle.js",
     "scripts": {
         "lint": "eslint .",
         "spec": "mocha --reporter progress",

@@ -1,16 +1,16 @@
 ## Compatibility
 
-This is the canonical resource for compatibility goals for POW.
+This is the canonical resource for compatibility goals for Prattle.
 
 ## ES2017
 
 The source is written in [ES2017][ES8] and requires no transpiler or polyfills.
 
-POW uses feature detection to support ES2017+ features, but does not rely on any of the new syntax introduced in these later editions and remains compatible with [ES2017][ES8] runtimes.
+Prattle uses feature detection to support ES2017+ features, but does not rely on any of the new syntax introduced in these later editions and remains compatible with [ES2017][ES8] runtimes.
 
 ## Runtimes
 
-POW aims at supporting the following runtimes:
+Prattle aims at supporting the following runtimes:
 
 * Firefox 45+
 * Chrome 48+

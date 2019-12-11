@@ -9,8 +9,8 @@ const VERSION = require( "./package.json" ).version;
 const HEADER = dedent`
 
     /**
-     * POW v${ VERSION }, [hash]
-     * https://pow.now.sh/
+     * Prattle v${ VERSION }, [hash]
+     * https://prattle.now.sh/
      *
      * Copyright (c) 2019+ Futago-za Ryuu
      *
@@ -34,7 +34,7 @@ module.exports = {
     output: {
         path: path.join( __dirname, "dist" ),
         filename: "[name].js",
-        library: [ "pow", "[name]" ],
+        library: [ "prattle", "[name]" ],
         libraryTarget: "umd",
         umdNamedDefine: true,
         sourcePrefix: "  ",
