@@ -4,8 +4,14 @@ on: [ push, pull_request ]
 
 jobs:
 
-  lint:
-    name: Lint
+  preflight:
+    runs-on: ubuntu-latest
+    if: "! contains(github.event.head_commit.message, '[skip ci]')"
+    steps:
+      - run: echo "${{ github.event.head_commit.message }}"
+
+  Lint:
+    needs: preflight
 
     runs-on: ubuntu-latest
 
@@ -23,8 +29,8 @@ jobs:
     - name: Lint JavaScript files using ESLint
       run: npm run lint
 
-  ci:
-    name: Test
+  Test:
+    needs: preflight
 
     runs-on: ubuntu-latest
 
