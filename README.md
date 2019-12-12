@@ -5,7 +5,7 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/futagoza/prattle/badge)](https://www.codefactor.io/repository/github/futagoza/prattle)
 [![license](https://img.shields.io/badge/license-mit-blue.svg)](https://opensource.org/licenses/MIT)
 
-Prattle is a simple test runner for JavaScript (works in [the browser and on Node 8+](./docs/guides/compatibility.md)). It can be used to run spec, benchmark and impact tests, while also letting you customize the runner (reporters, ui, etc).
+Prattle is a simple test runner for JavaScript (works in [the browser and on Node 10+](./docs/guides/compatibility.md)). It can be used to run spec, benchmark and impact tests, while also letting you customize the runner (reporters, ui, etc).
 
 > Prattle is still very much work in progress. There are no compatibility guarantees until it goes gold
 

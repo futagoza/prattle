@@ -16,16 +16,16 @@
     "files": [
         "bin",
         "dist",
-        "src"
+        "src/*/"
     ],
     "main": "dist/node/api/index.js",
     "bin": "bin/prattle",
     "browser": "dist/prattle.js",
     "scripts": {
-        "lint": "eslint .",
+        "lint": "eslint --ext .js,.ts .",
         "spec": "mocha --reporter progress",
         "build:node": "rimraf dist/node && tsc -p src",
-        "build:browser": "webpack --config src/webpack.config.js",
+        "build:browser": "wp --config src/webpack.config.js",
         "clean": "rimraf .nyc_output coverage dist",
         "test": "nyc mocha",
         "coverage": "codecov -f coverage/*.json",
@@ -56,7 +56,7 @@
         "@futagoza/tsconfig": "1.0.0",
         "@types/clone-deep": "4.0.1",
         "@types/dateformat": "3.0.1",
-        "@types/node": "8",
+        "@types/node": "10",
         "babel-loader": "8.0.6",
         "codecov": "3.6.1",
         "eslint": "6.7.2",
@@ -79,6 +79,6 @@
         "webpack": "^4.41.0"
     },
     "engines": {
-        "node": ">= 8"
+        "node": ">= 10"
     }
 }
