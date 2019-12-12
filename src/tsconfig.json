@@ -1,0 +1,14 @@
+{
+    "extends": "@futagoza/tsconfig/node",
+    "include": [
+        "./**/*.ts"
+    ],
+    "exclude": [
+        "./browser/**/*.ts"
+    ],
+    "compilerOptions": {
+        "importHelpers": false,
+        "outDir": "../dist/node",
+        "rootDir": "./"
+    }
+}

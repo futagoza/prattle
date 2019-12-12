@@ -1,0 +1,7 @@
+{
+    "extends": "@futagoza/tsconfig",
+    "include": [
+        "./src/**/*.ts",
+        "./test/**/*.ts"
+    ]
+}
